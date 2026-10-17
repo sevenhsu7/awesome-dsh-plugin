@@ -2,5 +2,5 @@ url: https://github.com/sevenhsu7/dsh-cowork-mode
 name: sevenhsu7/dsh-cowork-mode
 category: workflow
 description:
-  en: 'Cowork mode for non-coding work: an agent preset that archives outputs to a workspace AI-CoWork folder, enforces YYMMDD-project-file naming through a cowork_save tool, sends temp files to Downloads, and prefixes Cowork session titles with 💻.'
-  zh: '非编码工作的 Cowork 模式：Agent 预设把产物归档到工作区 AI-CoWork，通过 cowork_save 工具强制「日期-项目代码-文件名」命名，临时文件进下载文件夹，Cowork 会话标题自动带 💻。'
+  en: 'Paper mode for non-coding work: an agent preset that archives outputs to a workspace AI-Cooperate folder, enforces YYMMDD-project-file naming through a save tool, sends temp files to Downloads, and prefixes Paper session titles with 📑.'
+  zh: '非编码工作的 Paper 模式：Agent 预设把产物归档到工作区 AI-Cooperate，通过保存工具强制「日期-项目代码-文件名」命名，临时文件进下载文件夹，Paper 会话标题自动带 📑。'
