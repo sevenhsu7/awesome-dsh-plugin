@@ -2,5 +2,5 @@ url: https://github.com/sevenhsu7/dsh-cowork-mode
 name: sevenhsu7/dsh-cowork-mode
 category: workflow
 description:
-  en: 'Paper mode for non-coding work: an agent preset that archives outputs to a workspace AI-Cooperate folder, enforces YYMMDD-project-file naming through a save tool, keeps intermediate files in an auto-cleaned system-temp scratch directory (7 days), and prefixes Paper session titles with 📑.'
-  zh: '非编码工作的 Paper 模式：Agent 预设把产物归档到工作区 AI-Cooperate，通过保存工具强制「日期-项目代码-文件名」命名，过程文件放进系统临时目录并在 7 天后自动清理，Paper 会话标题自动带 📑。'
+  en: 'Paper mode for non-coding work: an agent preset that archives outputs to a workspace AI-Cooperate folder, enforces YYMMDD-project-file naming, auto-adds the archive to .git/info/exclude in git repos, keeps intermediate files in an auto-cleaned system-temp scratch directory (7 days), and prefixes Paper session titles with 📑.'
+  zh: '非编码工作的 Paper 模式：Agent 预设把产物归档到工作区 AI-Cooperate，强制「日期-项目代码-文件名」命名；在 git 仓库里自动写进 .git/info/exclude 不污染仓库；过程文件放进系统临时目录并在 7 天后自动清理；Paper 会话标题自动带 📑。'

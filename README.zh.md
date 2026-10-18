@@ -3464,7 +3464,7 @@ dsh plugin --profile web add dshmarket
 - [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — 通过 stdio MCP 将 dsh 连接到本地 SandBase Harness 运行时，用于管理代理与会话、流式执行任务、检查产物和取消工作。
 - [Saretheya/dsh-tick](https://github.com/Saretheya/dsh-tick) — 会话内定时任务：按延迟、固定时刻或重复间隔向当前会话注入一段提示词，到点唤醒模型执行。可用输入框上方面板、/schedule 命令、或 7 个面向模型的工具管理。DSH 关闭期间计时冻结、绝不自动恢复；暂停保留剩余时间，恢复后从原处继续。
 - [Sev7een/dsh-plugin-automations](https://github.com/Sev7een/dsh-plugin-automations) — 设置页定时任务：支持准点或 DeepSeek 谷时段执行、单次/每日重复，并持久化任务状态。
-- [sevenhsu7/dsh-cowork-mode](https://github.com/sevenhsu7/dsh-cowork-mode) — 非编码工作的 Paper 模式：Agent 预设把产物归档到工作区 AI-Cooperate，通过保存工具强制「日期-项目代码-文件名」命名，过程文件放进系统临时目录并在 7 天后自动清理，Paper 会话标题自动带 📑。
+- [sevenhsu7/dsh-cowork-mode](https://github.com/sevenhsu7/dsh-cowork-mode) — 非编码工作的 Paper 模式：Agent 预设把产物归档到工作区 AI-Cooperate，强制「日期-项目代码-文件名」命名；在 git 仓库里自动写进 .git/info/exclude 不污染仓库；过程文件放进系统临时目录并在 7 天后自动清理；Paper 会话标题自动带 📑。
 - [seventeenlyc/agent-relay#dsh-package](https://github.com/seventeenlyc/agent-relay/tree/main/integrations/dsh-package) — 跨会话接力编排插件：提供 6 个 relay_* 控制工具、基于 session/create 与 session/prompt RPC 的侧边栏静默会话物化器、监听 compaction/start 与交接标记的自动触发钩子，以及内嵌的 agent-relay 技能。
 - [severin-ye/uagent-sync#packages/dsh](https://github.com/severin-ye/uagent-sync/tree/master/packages/dsh) — 工作区跨设备备份、恢复与扩展更新，经 uagent-sync CLI 桥接执行。
 - [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) — 为 DeepSeek Harness 提供原生对话生图能力：直接让 Agent 画图，插件自动完成生成并把结果保留在当前会话中。
