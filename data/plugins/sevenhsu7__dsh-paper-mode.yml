@@ -2,5 +2,5 @@ url: https://github.com/sevenhsu7/dsh-paper-mode
 name: sevenhsu7/dsh-paper-mode
 category: workflow
 description:
-  en: 'Paper mode for non-coding work: an agent preset that archives outputs to a workspace AI-Cooperate folder, enforces YYMMDD-project-file naming, auto-adds the archive to .git/info/exclude in git repos, keeps intermediate files in an auto-cleaned system-temp scratch directory (7 days), and prefixes Paper session titles with 📑.'
-  zh: '非编码工作的 Paper 模式：Agent 预设把产物归档到工作区 AI-Cooperate，强制「日期-项目代码-文件名」命名；在 git 仓库里自动写进 .git/info/exclude 不污染仓库；过程文件放进系统临时目录并在 7 天后自动清理；Paper 会话标题自动带 📑。'
+  en: 'Paper mode for non-coding work: a workspace-aware agent preset that archives outputs to a workspace AI-Cooperate folder, enforces YYMMDD-project-file naming, auto-detects git repositories (local-only .git/info/exclude so code repos stay clean), keeps intermediate files in an auto-cleaned system-temp scratch directory (7 days), and prefixes Paper session titles with 📑.'
+  zh: '非编码工作的 Paper 模式：能自动识别工作区类型的 Agent 预设。产物归档到工作区 AI-Cooperate，强制「日期-项目代码-文件名」命名；自动识别 git 仓库并写入本地 .git/info/exclude（代码仓库保持干净）；过程文件放进系统临时目录并在 7 天后自动清理；Paper 会话标题自动带 📑。'
