@@ -1,5 +1,5 @@
-url: https://github.com/sevenhsu7/dsh-cowork-mode
-name: sevenhsu7/dsh-cowork-mode
+url: https://github.com/sevenhsu7/dsh-paper-mode
+name: sevenhsu7/dsh-paper-mode
 category: workflow
 description:
   en: 'Paper mode for non-coding work: an agent preset that archives outputs to a workspace AI-Cooperate folder, enforces YYMMDD-project-file naming, auto-adds the archive to .git/info/exclude in git repos, keeps intermediate files in an auto-cleaned system-temp scratch directory (7 days), and prefixes Paper session titles with 📑.'
